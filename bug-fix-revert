@@ -1,3 +1,5 @@
+curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?head=SamarthToge:bug-fix-revert&state=all
+
 {
     "value":  [
                   {
@@ -9,7 +11,7 @@
                       "patch_url":  "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/11434.patch",
                       "issue_url":  "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/11434",
                       "number":  11434,
-                      "state":  "open",
+                      "state":  "closed",
                       "locked":  false,
                       "title":  "Revert typo fix",
                       "user":  {
@@ -35,10 +37,10 @@
                                },
                       "body":  "This PR reverts the bug-fix-typo merge as instructed in the final project lab.",
                       "created_at":  "2026-09-16T13:26:23Z",
-                      "updated_at":  "2026-09-16T13:26:23Z",
-                      "closed_at":  null,
+                      "updated_at":  "2026-09-16T13:26:35Z",
+                      "closed_at":  "2026-09-16T13:26:35Z",
                       "merged_at":  null,
-                      "merge_commit_sha":  null,
+                      "merge_commit_sha":  "7ff771626dec50b50ef37ac4bf4dbb75c5aa91f7",
                       "assignees":  [
 
                                     ],
@@ -309,7 +311,7 @@
                                                 "mirror_url":  null,
                                                 "archived":  false,
                                                 "disabled":  false,
-                                                "open_issues_count":  49,
+                                                "open_issues_count":  48,
                                                 "license":  {
                                                                 "key":  "apache-2.0",
                                                                 "name":  "Apache License 2.0",
@@ -327,7 +329,7 @@
                                                            ],
                                                 "visibility":  "public",
                                                 "forks":  9982,
-                                                "open_issues":  49,
+                                                "open_issues":  48,
                                                 "watchers":  18,
                                                 "default_branch":  "main"
                                             }
